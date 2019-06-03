@@ -5,7 +5,7 @@ Test(about_dataclasses, unions)
 
     /*
         Unions are a data type that offers one variable to be able to
-        accomidate different data types all at once. They allow for different
+        accomodate different data types all at once. They allow for different
         types of different sizes and alignment to be handled all at once place
         in storage.
         Alignment and size of a union is determined by the compiler. The size of
@@ -43,7 +43,7 @@ Test(about_dataclasses, enums)
 {
     /*
         enums offer a list of constant integer values with an optional
-        identifer. The list of the enums may be assigned values, assigned no
+        identifier. The list of the enums may be assigned values, assigned no
         value, or only the first be assigned a value: the rest of the values
         will increase by 1 beginning from the first value.
     */
@@ -162,7 +162,7 @@ Test(about_dataclasses, about_const)
         The compiler will catch all const transgressions.
     */
 
-    /* A const primitive is unchangable */
+    /* A const primitive is unchangeable */
     const int i = 10;
     /* i = 4; ERROR! */
     cr_assert_eq(i, TODO,
